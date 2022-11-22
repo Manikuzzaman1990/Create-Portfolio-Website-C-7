@@ -1,0 +1,179 @@
+/*
+Google Fonts
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  background-image: url(img/background.jpg);
+  background-position: center;
+  background-size:cover;
+  color: #bebbc7;
+  background-attachment: fixed;
+}
+
+
+a {
+ font-weight: 500; 
+}
+
+h1.
+h2.
+h3.
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+/*
+ Basic css
+*/
+.container {
+  padding:0 15%;
+}
+a.theme-button {
+  text-decoration: none;
+  background-color: #00cff0;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+a.theme-button:hover {
+  background-color: #fff;
+  color: #00cff0;
+}
+a.theme-button-small {
+  text-decoration: none;
+  background-color: #00cff0;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  display: inline-block;
+  margin-top: 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  font-size: 14px;
+}
+a.theme-button-small:hover {
+  background-color: #fff;
+  color: #00cff0;
+}
+.section-heading {
+  text-align: center;
+  margin-bottom: 75px;
+}
+.section-heading h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #00cff0;
+}
+.section-heading h2 {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+/*
+ header area css
+*/
+.header-area {
+  padding: 45px 0;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  text-decoration: none;
+}
+.logo h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.main-manu a {
+  text-decoration: none;
+  color: #fff;
+  display: inline-block;
+  padding: 5px;
+  margin-left: 40px;
+  transition: .5s;
+}
+.main-manu a:hover {
+  color: #00cff0;
+}
+
+/*
+Hero area css
+*/
+.hero-area {
+  padding: 80px 0;
+}
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-text h2 {
+  font-size: 50px;
+}
+.hero-text p {
+  font-size: 20px;
+}
+
+/*
+About area css
+*/
+.about-area {
+  background-color: rgba(26, 57, 156, 0.863);
+  padding: 100px 0;
+}
+.about-content {
+  display: flex;
+  align-items: center;
+}
+.about-image {
+  flex: 1;
+}
+.about-text {
+  flex: 1;
+}
+.about-text h2 {
+  font-size: 36px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+/*
+Service area css
+*/
+.service-area {
+  padding: 100px 0;
+}
+.service-content {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 30px;
+}
+.single-service {
+  background-color: rgba(26, 57, 156, 0.863);
+  padding: 30px;
+}
+.single-service h3 {
+  font-size: 26px;
+  color: #fff;
+  margin-bottom: 20px;
+}
